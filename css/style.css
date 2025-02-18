@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #585555;
+    gap: 60px;
+  }
+  
+  .option {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .playground {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+  }
